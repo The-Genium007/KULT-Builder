@@ -1,5 +1,8 @@
 [phases.setup]
-node_version = "22"
+# Force Node and pnpm versions (Nixpacks keys)
+nixPkgs = ["nodejs_22", "pnpm-9_x"]
+nodejs = "22"
+pnpm = "9"
 
 [phases.install]
 cmd = "pnpm install --frozen-lockfile"
