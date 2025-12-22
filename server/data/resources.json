@@ -1,0 +1,3026 @@
+{
+  "archetypes": [
+    {
+      "_id": "arch-artiste",
+      "name": "Artiste",
+      "tagline": "Ton art fissure l’Illusion, mais t’expose aux murmures des Archontes.",
+      "guidance": "Accentue la fragilité mentale et l’obsession créatrice. Cherche les zones grises où l’inspiration flirte avec la folie.",
+      "suggestedAttributes": [
+        "Âme",
+        "Esprit"
+      ],
+      "suggestedAdvantages": [
+        "Sixième Sens",
+        "Empathie Aiguisée"
+      ],
+      "suggestedDisadvantages": [
+        "Addiction",
+        "Vision Fragmentée"
+      ],
+      "equipment": [
+        "Carnet noir",
+        "Instrument ou médium",
+        "Collection d’esquisses interdites"
+      ],
+      "vibe": "Lumières de néon qui clignotent sur des fresques qui bougent toutes seules."
+    },
+    {
+      "_id": "arch-agent",
+      "name": "Agent",
+      "tagline": "Protecteur froid qui ne reculera devant rien pour exécuter l’ordre reçu.",
+      "guidance": "Joue la vitesse d’analyse, la couverture et le coût moral des missions secrètes.",
+      "suggestedAttributes": [
+        "Instinct",
+        "Esprit"
+      ],
+      "suggestedAdvantages": [
+        "Jamais au dépourvu",
+        "Agent de terrain",
+        "Analyste"
+      ],
+      "suggestedDisadvantages": [
+        "Obsession",
+        "Recherché",
+        "Identité perdue"
+      ],
+      "equipment": [
+        "Badge ou fausse plaque",
+        "Pistolet de service",
+        "Trousse de surveillance"
+      ],
+      "vibe": "Canaux cryptés, filatures nocturnes, moralité transformée en dossier classifié."
+    },
+    {
+      "_id": "arch-carrieriste",
+      "name": "Carriériste",
+      "tagline": "Tueur en col blanc prêt à poignarder pour gagner une promotion.",
+      "guidance": "Capitalise sur l’opportunisme et les réseaux corporate, quitte à brûler des ponts.",
+      "suggestedAttributes": [
+        "Charisme",
+        "Esprit"
+      ],
+      "suggestedAdvantages": [
+        "Réseau",
+        "Opportuniste",
+        "Amis influents"
+      ],
+      "suggestedDisadvantages": [
+        "Avare",
+        "Rival",
+        "Maudit"
+      ],
+      "equipment": [
+        "Ordinateur saturé d’emails",
+        "Costume impeccable",
+        "Carte d’accès d’entreprise"
+      ],
+      "vibe": "Open spaces glacés, ascenseurs feutrés, sourires carnivores dans les couloirs."
+    },
+    {
+      "_id": "arch-condamne",
+      "name": "Condamné",
+      "tagline": "Le sablier est presque vide et tu refuses de payer l’addition.",
+      "guidance": "Insiste sur la fuite en avant et le prix désespéré pour tordre le destin.",
+      "suggestedAttributes": [
+        "Âme",
+        "Instinct"
+      ],
+      "suggestedAdvantages": [
+        "Intuition magique",
+        "Jusqu’au dernier souffle",
+        "Désespéré"
+      ],
+      "suggestedDisadvantages": [
+        "Condamné",
+        "Hanté",
+        "Poursuivant"
+      ],
+      "equipment": [
+        "Breloque maudite",
+        "Traitements expérimentaux",
+        "Liste de contacts occultes"
+      ],
+      "vibe": "Bip d’hôpital, visages pâles, tic-tac qui recouvre chaque réplique."
+    },
+    {
+      "_id": "arch-criminel",
+      "name": "Criminel",
+      "tagline": "Malfrat qui survit grâce aux deals, aux coups et à la peur inspirée.",
+      "guidance": "Privilégie la débrouille et la violence de rue; confiance rare, dettes nombreuses.",
+      "suggestedAttributes": [
+        "Corps",
+        "Instinct"
+      ],
+      "suggestedAdvantages": [
+        "Combat de rue",
+        "Chef de gang",
+        "Roi de l’évasion"
+      ],
+      "suggestedDisadvantages": [
+        "Recherché",
+        "Mauvaise réputation",
+        "Drogué"
+      ],
+      "equipment": [
+        "Couteau ou arme improvisée",
+        "Réseau de planques",
+        "Téléphone brûleur"
+      ],
+      "vibe": "Ruelles humides, échanges à la volée, regards qui évaluent le danger en silence."
+    },
+    {
+      "_id": "arch-dement",
+      "name": "Dément",
+      "tagline": "Esprit fissuré qui perçoit l’Illusion et la Réalité sans filtre.",
+      "guidance": "Laisse le doute planer sur tes perceptions; tes visions dévoilent et détruisent.",
+      "suggestedAttributes": [
+        "Âme",
+        "Instinct"
+      ],
+      "suggestedAdvantages": [
+        "Conscience augmentée",
+        "Sixième sens",
+        "Intuition magique"
+      ],
+      "suggestedDisadvantages": [
+        "Dément",
+        "Obsession",
+        "Schizophrénie"
+      ],
+      "equipment": [
+        "Grigris et amulettes",
+        "Carnet de délires",
+        "Vêtements usés et fétiches"
+      ],
+      "vibe": "Murales griffonnées, murmures d’égouts, nuits sans sommeil."
+    },
+    {
+      "_id": "arch-descendant",
+      "name": "Descendant",
+      "tagline": "Héritier d’un pacte ancien que le passé rattrape toujours.",
+      "guidance": "Mets en avant le poids du sang et les obligations d’un culte ou d’une lignée.",
+      "suggestedAttributes": [
+        "Âme",
+        "Intuition"
+      ],
+      "suggestedAdvantages": [
+        "Artefact",
+        "Pouvoir intérieur",
+        "Bibliothèque occulte"
+      ],
+      "suggestedDisadvantages": [
+        "Maudit",
+        "Souvenirs refoulés",
+        "Hanté"
+      ],
+      "equipment": [
+        "Relique familiale",
+        "Journal d’ancêtre",
+        "Contact de culte"
+      ],
+      "vibe": "Manoirs décrépis, portraits qui te ressemblent, rituels écrits dans une langue oubliée."
+    },
+    {
+      "_id": "arch-detective",
+      "name": "Détective",
+      "tagline": "Obsédé par les réponses, même si elles brisent tout le reste.",
+      "guidance": "Garde le mélange de professionnalisme et d’addictions qui ruinent le quotidien.",
+      "suggestedAttributes": [
+        "Perception",
+        "Esprit"
+      ],
+      "suggestedAdvantages": [
+        "Filature",
+        "Instinct",
+        "Enquêteur"
+      ],
+      "suggestedDisadvantages": [
+        "Cauchemars",
+        "Souvenirs refoulés",
+        "Drogué"
+      ],
+      "equipment": [
+        "Carnet et appareil photo",
+        "Badge ou licence",
+        "Revolver usé"
+      ],
+      "vibe": "Bureaux enfumés, pluie sur les néons, dossiers collants de secrets."
+    },
+    {
+      "_id": "arch-escroc",
+      "name": "Escroc",
+      "tagline": "Caméléon charmeur qui dépouille puis disparaît.",
+      "guidance": "Change d’identité selon la proie; les relations sont des outils à brûler.",
+      "suggestedAttributes": [
+        "Charisme",
+        "Intuition"
+      ],
+      "suggestedAdvantages": [
+        "Séducteur",
+        "Imposteur",
+        "Attentif aux détails"
+      ],
+      "suggestedDisadvantages": [
+        "Menteur",
+        "Némésis",
+        "Recherché"
+      ],
+      "equipment": [
+        "Garde-robe adaptable",
+        "Portefeuille d’alias",
+        "Bijoux volés"
+      ],
+      "vibe": "Bars chics, promesses champagne, miroirs qui renvoient mille visages."
+    },
+    {
+      "_id": "arch-facilitateur",
+      "name": "Facilitateur",
+      "tagline": "Courtier capable de trouver tout, pourvu que vous payiez.",
+      "guidance": "Construis des réseaux d’obligations; toujours une porte de sortie mais beaucoup d’ennemis.",
+      "suggestedAttributes": [
+        "Charisme",
+        "Instinct"
+      ],
+      "suggestedAdvantages": [
+        "École de la rue",
+        "As dans la manche",
+        "Patron"
+      ],
+      "suggestedDisadvantages": [
+        "Avare",
+        "Concurrent",
+        "Menteur"
+      ],
+      "equipment": [
+        "Carnet de contacts crypté",
+        "Voiture discrète",
+        "Arme de poing planquée"
+      ],
+      "vibe": "Clubs enfumés, bureaux arrière, valises de cash qui claquent."
+    },
+    {
+      "_id": "arch-investigateur",
+      "name": "Investigateur",
+      "tagline": "Chasseur de conspirations qui déterre la Vérité numérique.",
+      "guidance": "Exploite forums, squats et tunnels urbains; obsédé par les signes cachés.",
+      "suggestedAttributes": [
+        "Esprit",
+        "Perception"
+      ],
+      "suggestedAdvantages": [
+        "Pirate informatique",
+        "Accès au dark web",
+        "Conscience augmentée"
+      ],
+      "suggestedDisadvantages": [
+        "Cauchemars",
+        "Hanté",
+        "Recherché"
+      ],
+      "equipment": [
+        "Laptop blindé",
+        "Routeur bricolé",
+        "Sac de notes et graffitis de pistes"
+      ],
+      "vibe": "Stations de métro abandonnées, écrans multiples, silhouettes sans visage."
+    },
+    {
+      "_id": "arch-jouet",
+      "name": "Jouet",
+      "tagline": "Toujours possédé par autrui, désespéré de reprendre le contrôle.",
+      "guidance": "Expose la fragilité et l’exploitation; tes relations sont teintées de dépendance.",
+      "suggestedAttributes": [
+        "Charisme",
+        "Âme"
+      ],
+      "suggestedAdvantages": [
+        "Attraction magnétique",
+        "Victime perpétuelle",
+        "Discret"
+      ],
+      "suggestedDisadvantages": [
+        "Objet de désir",
+        "Esclave",
+        "Harcelé"
+      ],
+      "equipment": [
+        "Tenue imposée",
+        "Trousse de maquillage ou camouflage",
+        "Bracelet ou cadenas de contrôle"
+      ],
+      "vibe": "Coulisses glamour et cages dorées, regards possessifs qui collent à la peau."
+    },
+    {
+      "_id": "arch-nettoyeur",
+      "name": "Nettoyeur",
+      "tagline": "Professionnel du sale boulot, efficace et remplaçable.",
+      "guidance": "Planifie des sorties propres et des identités multiples; la moindre erreur tue.",
+      "suggestedAttributes": [
+        "Corps",
+        "Instinct"
+      ],
+      "suggestedAdvantages": [
+        "Stratégie de sortie",
+        "Maître d’armes",
+        "Sniper"
+      ],
+      "suggestedDisadvantages": [
+        "Recherché",
+        "Némésis",
+        "Hanté"
+      ],
+      "equipment": [
+        "Arsenal modulable",
+        "Kit de nettoyage de scène",
+        "Passeports falsifiés"
+      ],
+      "vibe": "Moteurs au ralenti dans des parkings souterrains, silhouettes silencieuses."
+    },
+    {
+      "_id": "arch-occultiste",
+      "name": "Occultiste",
+      "tagline": "Chercheur de pouvoirs interdits qui flirte avec l’Abîme.",
+      "guidance": "Accumule rituels et sources; chaque incantation a un prix immédiat.",
+      "suggestedAttributes": [
+        "Âme",
+        "Esprit"
+      ],
+      "suggestedAdvantages": [
+        "Intuition magique",
+        "Occultiste amateur",
+        "Bibliothèque occulte"
+      ],
+      "suggestedDisadvantages": [
+        "Culpabilité",
+        "Poursuivant",
+        "Cauchemars"
+      ],
+      "equipment": [
+        "Grimoire annoté",
+        "Trousse de rituel",
+        "Bibliothèque occulte portable"
+      ],
+      "vibe": "Bougies sur carrelage froid, encens lourd, symboles tracés à la craie."
+    },
+    {
+      "_id": "arch-prophete",
+      "name": "Prophète",
+      "tagline": "Figure de foi dont la lumière projette des ombres inquiétantes.",
+      "guidance": "Affiche la certitude absolue et les dérives sectaires; la congrégation est une ressource et un risque.",
+      "suggestedAttributes": [
+        "Âme",
+        "Charisme"
+      ],
+      "suggestedAdvantages": [
+        "Aura charismatique",
+        "Imposition des mains",
+        "Gourou"
+      ],
+      "suggestedDisadvantages": [
+        "Fanatique",
+        "Maudit",
+        "Médium involontaire"
+      ],
+      "equipment": [
+        "Symboles religieux",
+        "Groupe de fidèles",
+        "Lieu de culte privé"
+      ],
+      "vibe": "Chants fervents dans des sous-sols, sermons enflammés, regards extatiques."
+    },
+    {
+      "_id": "arch-scientifique",
+      "name": "Scientifique",
+      "tagline": "Expérimentateur prêt à briser l’éthique pour comprendre.",
+      "guidance": "Rigueur froide et curiosité dangereuse; tes tests menacent la Réalité.",
+      "suggestedAttributes": [
+        "Esprit",
+        "Âme"
+      ],
+      "suggestedAdvantages": [
+        "Génie",
+        "Inventeur",
+        "Médecine de guerre"
+      ],
+      "suggestedDisadvantages": [
+        "Expérience ratée",
+        "Recherché",
+        "Névrose"
+      ],
+      "equipment": [
+        "Laboratoire portable",
+        "Carnet d’expériences",
+        "Sérums prototypes"
+      ],
+      "vibe": "Lumière blanche, odeur d’ozone, machines qui cliquettent à contretemps."
+    },
+    {
+      "_id": "arch-universitaire",
+      "name": "Universitaire",
+      "tagline": "Chercheur théorique qui flirte avec l’interdit.",
+      "guidance": "Reste méthodique mais frustré; prêt à briser l’académisme pour la vérité.",
+      "suggestedAttributes": [
+        "Esprit",
+        "Charisme"
+      ],
+      "suggestedAdvantages": [
+        "Réseau universitaire",
+        "Expert",
+        "Études occultes"
+      ],
+      "suggestedDisadvantages": [
+        "Obsession",
+        "Rationnel",
+        "Poursuivant"
+      ],
+      "equipment": [
+        "Pile de notes et thèses",
+        "Accès bibliothèque",
+        "Subventions ou bourses en péril"
+      ],
+      "vibe": "Amphis désertés la nuit, piles de livres, mails menaçants de la faculté."
+    },
+    {
+      "_id": "arch-vagabond",
+      "name": "Vagabond",
+      "tagline": "Errant sans attache, toujours prêt à fuir à la prochaine gare.",
+      "guidance": "Valorise la débrouille mobile et l’absence d’ancrage; tu sais dormir partout.",
+      "suggestedAttributes": [
+        "Corps",
+        "Instinct"
+      ],
+      "suggestedAdvantages": [
+        "Voyageur",
+        "Contacts dans les rues",
+        "Improvisateur"
+      ],
+      "suggestedDisadvantages": [
+        "Poursuivant",
+        "Recherché",
+        "Maudit"
+      ],
+      "equipment": [
+        "Sac à dos usé",
+        "Carte froissée ou GPS craquelé",
+        "Multiples planques improvisées"
+      ],
+      "vibe": "Aires d’autoroute désertes, wagons de fret, horizons qui changent chaque nuit."
+    },
+    {
+      "_id": "arch-vengeur",
+      "name": "Vengeur",
+      "tagline": "La vengeance est tout ce qui reste et rien ne t’arrêtera.",
+      "guidance": "Concentre-toi sur la cible et le prix moral à payer; explose si l’on t’entrave.",
+      "suggestedAttributes": [
+        "Violence",
+        "Instinct"
+      ],
+      "suggestedAdvantages": [
+        "Rage",
+        "Instinct de survie",
+        "Intimidant"
+      ],
+      "suggestedDisadvantages": [
+        "Vœu de vengeance",
+        "Cauchemars",
+        "Poursuivant"
+      ],
+      "equipment": [
+        "Arme fétiche",
+        "Mur de photos de la cible",
+        "Plan de traque"
+      ],
+      "vibe": "Appartements barricadés, regards brûlants, justice personnelle au bout du poing."
+    },
+    {
+      "_id": "arch-veteran",
+      "name": "Vétéran",
+      "tagline": "Survivant de la guerre, marqué dans la chair et la tête.",
+      "guidance": "Joue le traumatisme autant que l’efficacité martiale; loyauté fissurée.",
+      "suggestedAttributes": [
+        "Corps",
+        "Violence"
+      ],
+      "suggestedAdvantages": [
+        "Survivaliste",
+        "Tireur d’élite",
+        "Officier"
+      ],
+      "suggestedDisadvantages": [
+        "Souvenirs refoulés",
+        "Cauchemars",
+        "Phobie"
+      ],
+      "equipment": [
+        "Sac militaire",
+        "Médaille ou dog tag",
+        "Armes ou outils de survie"
+      ],
+      "vibe": "Barbelés dans la mémoire, orages qui réveillent les bombardements."
+    },
+    {
+      "_id": "arch-dormeur",
+      "name": "Dormeur",
+      "tagline": "Aveugle à la Réalité, réfugié dans l’Illusion quotidienne.",
+      "guidance": "Joue la normalité forcée et les distractions compulsives; l’éveil viendra peut-être.",
+      "suggestedAttributes": [
+        "Âme",
+        "Esprit"
+      ],
+      "suggestedAdvantages": [],
+      "suggestedDisadvantages": [
+        "Distractions omniprésentes",
+        "Secret oublié"
+      ],
+      "equipment": [
+        "Smartphone saturé d’apps",
+        "Écran toujours allumé",
+        "Carnet de motivation vide"
+      ],
+      "vibe": "Studios aseptisés, podcasts motivants, cage dorée sans fissures visibles."
+    }
+  ],
+  "advantages": [
+    {
+      "_id": "adv-a-nimporte-quel-prix",
+      "name": "A n'importe quel prix",
+      "description": "Gagnez +2 à n’importe quel jet en perdant 2 de Stabilité.",
+      "cost": 2,
+      "tags": [
+        "mental"
+      ]
+    },
+    {
+      "_id": "adv-acces-dark-web",
+      "name": "Accès au dark web",
+      "description": "Vous savez fouiller les abysses du dark web.",
+      "cost": 1,
+      "tags": [
+        "tech",
+        "perception"
+      ],
+      "allowedArchetypes": [
+        "arch-investigateur"
+      ]
+    },
+    {
+      "_id": "adv-agent-terrain",
+      "name": "Agent de terrain",
+      "description": "Vous gagnez des atouts en combat.",
+      "cost": 2,
+      "tags": [
+        "combat"
+      ],
+      "allowedArchetypes": [
+        "arch-agent"
+      ]
+    },
+    {
+      "_id": "adv-alpha",
+      "name": "Alpha",
+      "description": "Vous inspirez crainte et respect.",
+      "cost": 2,
+      "tags": [
+        "social",
+        "leadership"
+      ],
+      "allowedArchetypes": [
+        "arch-carrieriste"
+      ]
+    },
+    {
+      "_id": "adv-ami-betes",
+      "name": "Ami des bêtes",
+      "description": "Vous pouvez contrôler les animaux.",
+      "cost": 1,
+      "tags": [
+        "occult",
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-vengeur"
+      ]
+    },
+    {
+      "_id": "adv-amis-influents",
+      "name": "Amis influents",
+      "description": "Vous avez des amis en position de pouvoir.",
+      "cost": 2,
+      "tags": [
+        "social",
+        "network"
+      ],
+      "allowedArchetypes": [
+        "arch-carrieriste",
+        "arch-descendant"
+      ]
+    },
+    {
+      "_id": "adv-analyste",
+      "name": "Analyste",
+      "description": "Quand vous cherchez des indices, vous recoupez les informations avec brio.",
+      "cost": 1,
+      "tags": [
+        "investigation",
+        "logic"
+      ],
+      "allowedArchetypes": [
+        "arch-agent"
+      ]
+    },
+    {
+      "_id": "adv-artefact",
+      "name": "Artefact",
+      "description": "Vous possédez un artefact aux pouvoirs mystiques.",
+      "cost": 2,
+      "tags": [
+        "occult",
+        "item"
+      ],
+      "allowedArchetypes": [
+        "arch-vagabond"
+      ]
+    },
+    {
+      "_id": "adv-as-dans-manche",
+      "name": "As dans la manche",
+      "description": "Vous savez vous tirer d’une situation compliquée.",
+      "cost": 1,
+      "tags": [
+        "survival"
+      ],
+      "allowedArchetypes": [
+        "arch-facilitateur"
+      ]
+    },
+    {
+      "_id": "adv-attaque-surprise",
+      "name": "Attaque surprise",
+      "description": "Redoutable lorsque vous attaquez par surprise.",
+      "cost": 1,
+      "tags": [
+        "combat",
+        "stealth"
+      ],
+      "allowedArchetypes": [
+        "arch-escroc",
+        "arch-facilitateur",
+        "arch-jouet"
+      ]
+    },
+    {
+      "_id": "adv-attentif-details",
+      "name": "Attentif aux détails",
+      "description": "Vous remarquez les détails qui trahissent autrui.",
+      "cost": 1,
+      "tags": [
+        "perception"
+      ],
+      "allowedArchetypes": [
+        "arch-escroc"
+      ]
+    },
+    {
+      "_id": "adv-attraction-magnetique",
+      "name": "Attraction magnétique",
+      "description": "Vous attirez spontanément les gens.",
+      "cost": 2,
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-jouet"
+      ]
+    },
+    {
+      "_id": "adv-aura-charismatique",
+      "name": "Aura charismatique",
+      "description": "Vous forcez les gens à vous fréquenter et à vous faire confiance.",
+      "cost": 2,
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-prophete"
+      ]
+    },
+    {
+      "_id": "adv-autorite",
+      "name": "Autorité",
+      "description": "Votre expertise vous donne un argument d’autorité pour influencer autrui.",
+      "cost": 1,
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-universitaire"
+      ]
+    },
+    {
+      "_id": "adv-baratineur",
+      "name": "Baratineur",
+      "description": "Vous manipulez pour gagner la confiance.",
+      "cost": 1,
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-facilitateur"
+      ]
+    },
+    {
+      "_id": "adv-baroudeur",
+      "name": "Baroudeur",
+      "description": "Vous savez vous intégrer rapidement à un nouveau lieu.",
+      "cost": 1,
+      "tags": [
+        "survival"
+      ],
+      "allowedArchetypes": [
+        "arch-facilitateur"
+      ]
+    },
+    {
+      "_id": "adv-beau-parleur",
+      "name": "Beau parleur",
+      "description": "Vous accaparez l’attention en parlant.",
+      "cost": 1,
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-detective"
+      ]
+    },
+    {
+      "_id": "adv-bibliotheque-occulte",
+      "name": "Bibliothèque occulte",
+      "description": "Vous possédez une bibliothèque d’ouvrages occultes.",
+      "cost": 1,
+      "tags": [
+        "occult",
+        "knowledge"
+      ],
+      "allowedArchetypes": [
+        "arch-descendant",
+        "arch-occultiste"
+      ]
+    },
+    {
+      "_id": "adv-blase",
+      "name": "Blasé",
+      "description": "Ignorez une réussite avec complications (10-14) quand vous Gardez le contrôle.",
+      "cost": 2,
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-nettoyeur"
+      ]
+    },
+    {
+      "_id": "adv-bon-samaritain",
+      "name": "Bon Samaritain",
+      "description": "Regagnez de la Stabilité lorsque vous vous sacrifiez pour aider autrui.",
+      "cost": 1,
+      "tags": [
+        "mental",
+        "support"
+      ],
+      "allowedArchetypes": [
+        "arch-prophete"
+      ]
+    },
+    {
+      "_id": "adv-cameleon",
+      "name": "Caméléon",
+      "description": "Vous dissimulez votre identité et imitez l’apparence des autres.",
+      "cost": 2,
+      "tags": [
+        "stealth",
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-nettoyeur"
+      ]
+    },
+    {
+      "_id": "adv-celebre",
+      "name": "Célèbre",
+      "description": "Votre célébrité influence autrui.",
+      "cost": 1,
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-artiste",
+        "arch-carrieriste"
+      ]
+    },
+    {
+      "_id": "adv-champion-divin",
+      "name": "Champion divin",
+      "description": "Plus puissant contre les ennemis de votre dieu ou quand vous défendez un objet sacré.",
+      "cost": 2,
+      "tags": [
+        "faith",
+        "combat"
+      ],
+      "allowedArchetypes": [
+        "arch-prophete"
+      ]
+    },
+    {
+      "_id": "adv-charmeur-serpents",
+      "name": "Charmeur de serpents",
+      "description": "Votre art charme des créatures intelligentes.",
+      "cost": 1,
+      "tags": [
+        "social",
+        "occult"
+      ],
+      "allowedArchetypes": [
+        "arch-artiste"
+      ]
+    },
+    {
+      "_id": "adv-chasseur-homme",
+      "name": "Chasseur d’homme",
+      "description": "Vous trouvez des informations sur des cibles précises.",
+      "cost": 1,
+      "tags": [
+        "investigation"
+      ],
+      "allowedArchetypes": [
+        "arch-nettoyeur"
+      ]
+    },
+    {
+      "_id": "adv-chasseur",
+      "name": "Chasseur",
+      "description": "Vous êtes un chasseur redoutable.",
+      "cost": 1,
+      "tags": [
+        "survival",
+        "combat"
+      ],
+      "allowedArchetypes": [
+        "arch-veteran"
+      ]
+    },
+    {
+      "_id": "adv-chef-gang",
+      "name": "Chef de gang",
+      "description": "Vous commandez un gang.",
+      "cost": 2,
+      "tags": [
+        "leadership",
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-criminel"
+      ]
+    },
+    {
+      "_id": "adv-chercheur-arcanes",
+      "name": "Chercheur des arcanes",
+      "description": "Vous avez des informations sur d’autres plans d’existence.",
+      "cost": 1,
+      "tags": [
+        "occult",
+        "knowledge"
+      ],
+      "allowedArchetypes": [
+        "arch-scientifique"
+      ]
+    },
+    {
+      "_id": "adv-code-honneur",
+      "name": "Code d’honneur",
+      "description": "Regagnez de la Stabilité quand vous prenez des risques pour votre code.",
+      "cost": 1,
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-vengeur"
+      ]
+    },
+    {
+      "_id": "adv-collectionneur",
+      "name": "Collectionneur",
+      "description": "Vous savez où et comment trouver des objets rares.",
+      "cost": 1,
+      "tags": [
+        "social",
+        "knowledge"
+      ],
+      "allowedArchetypes": [
+        "arch-universitaire"
+      ]
+    },
+    {
+      "_id": "adv-combat-rue",
+      "name": "Combat de rue",
+      "description": "Vous gagnez des atouts en corps à corps.",
+      "cost": 1,
+      "tags": [
+        "combat"
+      ],
+      "allowedArchetypes": [
+        "arch-criminel"
+      ]
+    },
+    {
+      "_id": "adv-conducteur",
+      "name": "Conducteur",
+      "description": "Vous conduisez de façon professionnelle.",
+      "cost": 1,
+      "tags": [
+        "drive"
+      ],
+      "allowedArchetypes": [
+        "arch-vagabond"
+      ]
+    },
+    {
+      "_id": "adv-conscience-augmentee",
+      "name": "Conscience augmentée",
+      "description": "Visions et communication avec des entités d’autres dimensions.",
+      "cost": 2,
+      "tags": [
+        "occult",
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-artiste",
+        "arch-demon",
+        "arch-detective",
+        "arch-descendant",
+        "arch-investigateur",
+        "arch-occultiste",
+        "arch-prophete",
+        "arch-scientifique",
+        "arch-vagabond",
+        "arch-vengeur",
+        "arch-dement"
+      ]
+    },
+    {
+      "_id": "adv-conscience-soi",
+      "name": "Conscience de soi",
+      "description": "Contrôle phénoménal sur votre corps.",
+      "cost": 1,
+      "tags": [
+        "physical"
+      ],
+      "allowedArchetypes": [
+        "arch-artiste"
+      ]
+    },
+    {
+      "_id": "adv-contacts-rues",
+      "name": "Contacts dans les rues",
+      "description": "Vous avez des contacts parmi la faune des rues.",
+      "cost": 1,
+      "tags": [
+        "network"
+      ],
+      "allowedArchetypes": [
+        "arch-demon",
+        "arch-vagabond",
+        "arch-dement"
+      ]
+    },
+    {
+      "_id": "adv-dents-serrees",
+      "name": "Dents serrées",
+      "description": "Les blessures ne vous infligent aucune pénalité à vos jets.",
+      "cost": 2,
+      "tags": [
+        "physical",
+        "combat"
+      ],
+      "allowedArchetypes": [
+        "arch-jouet"
+      ]
+    },
+    {
+      "_id": "adv-desespere",
+      "name": "Désespéré",
+      "description": "Gagnez +1 à tous vos jets lorsque tout espoir semble perdu.",
+      "cost": 2,
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-condamne"
+      ]
+    },
+    {
+      "_id": "adv-destin-scelle",
+      "name": "Destin scellé",
+      "description": "Cochez une case de temps restant pour stabiliser vos blessures.",
+      "cost": 2,
+      "tags": [
+        "survival"
+      ],
+      "allowedArchetypes": [
+        "arch-condamne"
+      ]
+    },
+    {
+      "_id": "adv-discret",
+      "name": "Discret",
+      "description": "Vous échappez aux regards quand vous voulez passer inaperçu.",
+      "cost": 1,
+      "tags": [
+        "stealth"
+      ],
+      "allowedArchetypes": [
+        "arch-jouet"
+      ]
+    },
+    {
+      "_id": "adv-divin",
+      "name": "Divin",
+      "description": "Les monstres vous obéissent quelques instants.",
+      "cost": 2,
+      "tags": [
+        "occult",
+        "faith"
+      ],
+      "allowedArchetypes": [
+        "arch-jouet"
+      ]
+    },
+    {
+      "_id": "adv-drogue-travail",
+      "name": "Drogué au travail",
+      "description": "Regagnez de la Stabilité quand vous créez ou menez des expériences.",
+      "cost": 1,
+      "tags": [
+        "science",
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-scientifique"
+      ]
+    },
+    {
+      "_id": "adv-dur-au-mal",
+      "name": "Dur au mal",
+      "description": "+1 permanent pour encaisser les blessures.",
+      "cost": 2,
+      "tags": [
+        "physical",
+        "combat"
+      ],
+      "allowedArchetypes": [
+        "arch-veteran"
+      ]
+    },
+    {
+      "_id": "adv-ecole-rue",
+      "name": "École de la rue",
+      "description": "Contacts dans le monde criminel.",
+      "cost": 1,
+      "tags": [
+        "network"
+      ],
+      "allowedArchetypes": [
+        "arch-criminel",
+        "arch-facilitateur"
+      ]
+    },
+    {
+      "_id": "adv-education-elite",
+      "name": "Éducation d’élite",
+      "description": "Contacts dans l’élite sociale.",
+      "cost": 1,
+      "tags": [
+        "network"
+      ],
+      "allowedArchetypes": [
+        "arch-universitaire"
+      ]
+    },
+    {
+      "_id": "adv-encaisser-traumas",
+      "name": "Encaisser les traumas",
+      "description": "Perdez toujours un niveau de Stabilité de moins que prévu.",
+      "cost": 2,
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-agent",
+        "arch-investigateur",
+        "arch-jouet"
+      ]
+    },
+    {
+      "_id": "adv-enqueteur",
+      "name": "Enquêteur",
+      "description": "Vous savez trouver des indices sur des scènes de crime.",
+      "cost": 1,
+      "tags": [
+        "investigation"
+      ],
+      "allowedArchetypes": [
+        "arch-detective"
+      ]
+    },
+    {
+      "_id": "adv-erotique",
+      "name": "Érotique",
+      "description": "Vous pouvez utiliser votre charme pour influencer autrui.",
+      "cost": 1,
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-escroc"
+      ]
+    },
+    {
+      "_id": "adv-espions",
+      "name": "Espions",
+      "description": "Vous disposez d’un réseau d’espions à interroger.",
+      "cost": 2,
+      "tags": [
+        "network"
+      ],
+      "allowedArchetypes": [
+        "arch-agent"
+      ]
+    },
+    {
+      "_id": "adv-etudes-occultes",
+      "name": "Études occultes",
+      "description": "Connaissances sur les sciences occultes.",
+      "cost": 1,
+      "tags": [
+        "occult",
+        "knowledge"
+      ],
+      "allowedArchetypes": [
+        "arch-condamne",
+        "arch-universitaire"
+      ]
+    },
+    {
+      "_id": "adv-exorciste",
+      "name": "Exorciste",
+      "description": "Vous pouvez bannir esprits et démons.",
+      "cost": 2,
+      "tags": [
+        "occult",
+        "faith"
+      ],
+      "allowedArchetypes": [
+        "arch-occultiste",
+        "arch-prophete"
+      ]
+    },
+    {
+      "_id": "adv-expert",
+      "name": "Expert",
+      "description": "En cherchant des indices dans votre domaine, posez une question supplémentaire.",
+      "cost": 1,
+      "tags": [
+        "knowledge"
+      ],
+      "allowedArchetypes": [
+        "arch-universitaire"
+      ]
+    },
+    {
+      "_id": "adv-expert-arts-martiaux",
+      "name": "Expert en arts martiaux",
+      "description": "Vous gagnez des atouts quand vous combattez de près.",
+      "cost": 1,
+      "tags": [
+        "combat"
+      ],
+      "allowedArchetypes": [
+        "arch-veteran"
+      ]
+    },
+    {
+      "_id": "adv-expert-explosifs",
+      "name": "Expert en explosifs",
+      "description": "Vous savez fabriquer et désamorcer des bombes.",
+      "cost": 1,
+      "tags": [
+        "tech",
+        "combat"
+      ],
+      "allowedArchetypes": [
+        "arch-agent"
+      ]
+    },
+    {
+      "_id": "adv-fascination",
+      "name": "Fascination",
+      "description": "Vous jouez de vos dons pour séduire.",
+      "cost": 1,
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-artiste"
+      ]
+    },
+    {
+      "_id": "adv-filature",
+      "name": "Filature",
+      "description": "Suivre quelqu’un sans être remarqué et disparaître si l’on vous suit.",
+      "cost": 1,
+      "tags": [
+        "stealth",
+        "investigation"
+      ],
+      "allowedArchetypes": [
+        "arch-detective"
+      ]
+    },
+    {
+      "_id": "adv-folie-contagieuse",
+      "name": "Folie contagieuse",
+      "description": "Vous pouvez rendre autrui fou temporairement.",
+      "cost": 2,
+      "tags": [
+        "occult",
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-demon",
+        "arch-dement"
+      ]
+    },
+    {
+      "_id": "adv-genie",
+      "name": "Génie",
+      "description": "Vous gagnez des atouts quand votre vie est en jeu.",
+      "cost": 2,
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-scientifique"
+      ]
+    },
+    {
+      "_id": "adv-glace-dans-veines",
+      "name": "Glace dans les veines",
+      "description": "Vous gardez la tête froide même dans la fureur du combat.",
+      "cost": 2,
+      "tags": [
+        "combat",
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-jouet"
+      ]
+    },
+    {
+      "_id": "adv-gourou",
+      "name": "Gourou",
+      "description": "Vous menez des rituels avec vos disciples.",
+      "cost": 2,
+      "tags": [
+        "faith",
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-prophete"
+      ]
+    },
+    {
+      "_id": "adv-impitoyable",
+      "name": "Impitoyable",
+      "description": "Gagnez des atouts en sacrifiant d’autres personnes pour sauver votre peau.",
+      "cost": 2,
+      "tags": [
+        "combat",
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-condamne"
+      ]
+    },
+    {
+      "_id": "adv-imposition-mains",
+      "name": "Imposition des mains",
+      "description": "Soignez en sacrifiant votre santé ou celle d’une victime.",
+      "cost": 2,
+      "tags": [
+        "faith",
+        "support"
+      ],
+      "allowedArchetypes": [
+        "arch-prophete"
+      ]
+    },
+    {
+      "_id": "adv-imposteur",
+      "name": "Imposteur",
+      "description": "Vous jouez plusieurs identités pour manipuler vos relations.",
+      "cost": 1,
+      "tags": [
+        "social",
+        "stealth"
+      ],
+      "allowedArchetypes": [
+        "arch-escroc"
+      ]
+    },
+    {
+      "_id": "adv-improvisateur",
+      "name": "Improvisateur",
+      "description": "Vous vous tirez des situations les plus tendues.",
+      "cost": 1,
+      "tags": [
+        "survival"
+      ],
+      "allowedArchetypes": [
+        "arch-vagabond"
+      ]
+    },
+    {
+      "_id": "adv-inspiration-interdite",
+      "name": "Inspiration interdite",
+      "description": "Votre art vous donne des visions ou attire des créatures.",
+      "cost": 2,
+      "tags": [
+        "occult",
+        "art"
+      ],
+      "allowedArchetypes": [
+        "arch-artiste"
+      ]
+    },
+    {
+      "_id": "adv-instinct-survie",
+      "name": "Instinct de survie",
+      "description": "Vous devenez plus retors lorsque vous êtes blessé.",
+      "cost": 1,
+      "tags": [
+        "combat",
+        "survival"
+      ],
+      "allowedArchetypes": [
+        "arch-vengeur"
+      ]
+    },
+    {
+      "_id": "adv-instinct",
+      "name": "Instinct",
+      "description": "Quand vous observez la situation, gagnez +2 après vos questions.",
+      "cost": 1,
+      "tags": [
+        "perception"
+      ],
+      "allowedArchetypes": [
+        "arch-detective",
+        "arch-vengeur",
+        "arch-veteran"
+      ]
+    },
+    {
+      "_id": "adv-intimidant",
+      "name": "Intimidant",
+      "description": "Vous forcez autrui à se soumettre par la peur.",
+      "cost": 1,
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-vengeur"
+      ]
+    },
+    {
+      "_id": "adv-intuitif",
+      "name": "Intuitif",
+      "description": "Lire une personne vous permet de poser une question de plus.",
+      "cost": 1,
+      "tags": [
+        "social",
+        "perception"
+      ],
+      "allowedArchetypes": [
+        "arch-descendant",
+        "arch-escroc",
+        "arch-dement"
+      ]
+    },
+    {
+      "_id": "adv-intuition-magique",
+      "name": "Intuition magique",
+      "description": "Vous percevez les auras et devinez la présence de magie.",
+      "cost": 2,
+      "tags": [
+        "occult"
+      ],
+      "allowedArchetypes": [
+        "arch-condamne",
+        "arch-demon",
+        "arch-occultiste",
+        "arch-dement"
+      ]
+    },
+    {
+      "_id": "adv-inventeur",
+      "name": "Inventeur",
+      "description": "Vous pouvez créer et réparer des objets.",
+      "cost": 1,
+      "tags": [
+        "tech"
+      ],
+      "allowedArchetypes": [
+        "arch-scientifique"
+      ]
+    },
+    {
+      "_id": "adv-jamais-depourvu",
+      "name": "Jamais au dépourvu",
+      "description": "Vous réfléchissez vite pour vous sortir d’un danger.",
+      "cost": 1,
+      "tags": [
+        "survival"
+      ],
+      "allowedArchetypes": [
+        "arch-agent"
+      ]
+    },
+    {
+      "_id": "adv-jusqu-dernier-souffle",
+      "name": "Jusqu’au dernier souffle",
+      "description": "Cochez une case de temps restant pour relancer les dés.",
+      "cost": 2,
+      "tags": [
+        "survival"
+      ],
+      "allowedArchetypes": [
+        "arch-condamne"
+      ]
+    },
+    {
+      "_id": "adv-lie",
+      "name": "Lié",
+      "description": "Vous puisez la puissance d’une entité d’une autre dimension.",
+      "cost": 2,
+      "tags": [
+        "occult"
+      ],
+      "allowedArchetypes": [
+        "arch-condamne",
+        "arch-descendant"
+      ]
+    },
+    {
+      "_id": "adv-lire-foule",
+      "name": "Lire la foule",
+      "description": "Vous entendez la moindre bribe d’information dans une foule.",
+      "cost": 1,
+      "tags": [
+        "perception"
+      ],
+      "allowedArchetypes": [
+        "arch-detective"
+      ]
+    },
+    {
+      "_id": "adv-maitre-chanteur",
+      "name": "Maître chanteur",
+      "description": "Lire une personne pour deviner ses faiblesses.",
+      "cost": 1,
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-facilitateur"
+      ]
+    },
+    {
+      "_id": "adv-maitre-armes",
+      "name": "Maître d’armes",
+      "description": "Maître en armes à feu ou au corps à corps.",
+      "cost": 2,
+      "tags": [
+        "combat"
+      ],
+      "allowedArchetypes": [
+        "arch-nettoyeur"
+      ]
+    },
+    {
+      "_id": "adv-manipulateur",
+      "name": "Manipulateur",
+      "description": "Vous utilisez des informations pour faire pression.",
+      "cost": 1,
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-escroc"
+      ]
+    },
+    {
+      "_id": "adv-marionnettiste",
+      "name": "Marionnettiste",
+      "description": "Vous menez des plans en utilisant d’autres personnes comme pions.",
+      "cost": 2,
+      "tags": [
+        "social",
+        "strategy"
+      ],
+      "allowedArchetypes": [
+        "arch-carrieriste"
+      ]
+    },
+    {
+      "_id": "adv-medecine-guerre",
+      "name": "Médecine de guerre",
+      "description": "Vous stabilisez les blessures dans l’urgence.",
+      "cost": 1,
+      "tags": [
+        "support"
+      ],
+      "allowedArchetypes": [
+        "arch-scientifique"
+      ]
+    },
+    {
+      "_id": "adv-obeissance-implantee",
+      "name": "Obéissance implantée",
+      "description": "Vous expérimentez sur vos cibles et les obligez à vous obéir.",
+      "cost": 2,
+      "tags": [
+        "science",
+        "occult"
+      ],
+      "allowedArchetypes": [
+        "arch-scientifique"
+      ]
+    },
+    {
+      "_id": "adv-observateur",
+      "name": "Observateur",
+      "description": "Vous savez juger les gens.",
+      "cost": 1,
+      "tags": [
+        "perception"
+      ],
+      "allowedArchetypes": [
+        "arch-artiste"
+      ]
+    },
+    {
+      "_id": "adv-occultiste-amateur",
+      "name": "Occultiste amateur",
+      "description": "Vous effectuez un rituel en suivant des indications écrites.",
+      "cost": 1,
+      "tags": [
+        "occult"
+      ],
+      "allowedArchetypes": [
+        "arch-occultiste"
+      ]
+    },
+    {
+      "_id": "adv-oeil-lynx",
+      "name": "Œil de lynx",
+      "description": "Vous jugez forces et faiblesses de vos ennemis.",
+      "cost": 1,
+      "tags": [
+        "perception"
+      ],
+      "allowedArchetypes": [
+        "arch-investigateur"
+      ]
+    },
+    {
+      "_id": "adv-oeil-pour-oeil",
+      "name": "Œil pour œil",
+      "description": "+2 permanent à tous les jets contre quelqu’un qui vous a blessé.",
+      "cost": 2,
+      "tags": [
+        "combat",
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-vengeur"
+      ]
+    },
+    {
+      "_id": "adv-officier",
+      "name": "Officier",
+      "description": "Gagnez des atouts en combat aux côtés d’alliés.",
+      "cost": 1,
+      "tags": [
+        "combat",
+        "leadership"
+      ],
+      "allowedArchetypes": [
+        "arch-veteran"
+      ]
+    },
+    {
+      "_id": "adv-on-ne-me-la-fait-pas",
+      "name": "On ne me la fait pas",
+      "description": "Quand vous lisez quelqu’un, vous savez si l’on vous ment.",
+      "cost": 1,
+      "tags": [
+        "perception"
+      ],
+      "allowedArchetypes": [
+        "arch-detective"
+      ]
+    },
+    {
+      "_id": "adv-opportuniste",
+      "name": "Opportuniste",
+      "description": "Regagnez de la Stabilité quand vous sacrifiez quelqu’un pour votre sécurité.",
+      "cost": 1,
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-carrieriste"
+      ]
+    },
+    {
+      "_id": "adv-parkour",
+      "name": "Parkour",
+      "description": "Vous courez, sautez et escaladez comme personne.",
+      "cost": 1,
+      "tags": [
+        "physical",
+        "stealth"
+      ]
+    },
+    {
+      "_id": "adv-patron",
+      "name": "Patron",
+      "description": "Vous disposez d’un gang d’hommes de main.",
+      "cost": 2,
+      "tags": [
+        "leadership",
+        "network"
+      ],
+      "allowedArchetypes": [
+        "arch-facilitateur"
+      ]
+    },
+    {
+      "_id": "adv-pirate-informatique",
+      "name": "Pirate informatique",
+      "description": "Vous êtes un as du réseau.",
+      "cost": 1,
+      "tags": [
+        "tech"
+      ],
+      "allowedArchetypes": [
+        "arch-investigateur"
+      ]
+    },
+    {
+      "_id": "adv-pisteur",
+      "name": "Pisteur",
+      "description": "Vous traquez gens et objets via vos réseaux.",
+      "cost": 1,
+      "tags": [
+        "investigation"
+      ],
+      "allowedArchetypes": [
+        "arch-agent"
+      ]
+    },
+    {
+      "_id": "adv-pouvoir-interieur",
+      "name": "Pouvoir intérieur",
+      "description": "Vous disposez d’un pouvoir incontrôlable et dangereux.",
+      "cost": 2,
+      "tags": [
+        "occult",
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-descendant"
+      ]
+    },
+    {
+      "_id": "adv-prevoyant",
+      "name": "Prévoyant",
+      "description": "Vous vous préparez avant d’entrer quelque part.",
+      "cost": 1,
+      "tags": [
+        "strategy"
+      ],
+      "allowedArchetypes": [
+        "arch-investigateur"
+      ]
+    },
+    {
+      "_id": "adv-pulsion-mort",
+      "name": "Pulsion de mort",
+      "description": "Vous gagnez des atouts en vous battant sans souci de survie.",
+      "cost": 2,
+      "tags": [
+        "combat"
+      ],
+      "allowedArchetypes": [
+        "arch-condamne"
+      ]
+    },
+    {
+      "_id": "adv-raccourci-mme-todd",
+      "name": "Raccourci de Mme Todd",
+      "description": "Votre folie indique des raccourcis improbables dans la ville.",
+      "cost": 2,
+      "tags": [
+        "occult",
+        "movement"
+      ],
+      "allowedArchetypes": [
+        "arch-demon",
+        "arch-dement"
+      ]
+    },
+    {
+      "_id": "adv-racketteur",
+      "name": "Racketteur",
+      "description": "Vous menacez pour obtenir obéissance.",
+      "cost": 1,
+      "tags": [
+        "social",
+        "combat"
+      ]
+    },
+    {
+      "_id": "adv-rage",
+      "name": "Rage",
+      "description": "Entrez en rage pour gagner des atouts en combat.",
+      "cost": 2,
+      "tags": [
+        "combat"
+      ],
+      "allowedArchetypes": [
+        "arch-vengeur"
+      ]
+    },
+    {
+      "_id": "adv-rancunier",
+      "name": "Rancunier",
+      "description": "+1 permanent pour vous venger de quelqu’un ayant ruiné vos plans.",
+      "cost": 1,
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-escroc"
+      ]
+    },
+    {
+      "_id": "adv-rapide-eclair",
+      "name": "Rapide comme l’éclair",
+      "description": "Vous gagnez des atouts lorsque vous bougez vite en combat.",
+      "cost": 2,
+      "tags": [
+        "combat",
+        "movement"
+      ],
+      "allowedArchetypes": [
+        "arch-nettoyeur"
+      ]
+    },
+    {
+      "_id": "adv-recolte-donnees",
+      "name": "Récolte de données",
+      "description": "Vous savez parfaitement chercher des informations.",
+      "cost": 1,
+      "tags": [
+        "investigation",
+        "tech"
+      ],
+      "allowedArchetypes": [
+        "arch-universitaire"
+      ]
+    },
+    {
+      "_id": "adv-regard-tueur",
+      "name": "Regard de tueur",
+      "description": "Vous pouvez figer un PNJ de votre regard.",
+      "cost": 1,
+      "tags": [
+        "social",
+        "combat"
+      ],
+      "allowedArchetypes": [
+        "arch-criminel"
+      ]
+    },
+    {
+      "_id": "adv-reseau",
+      "name": "Réseau",
+      "description": "Vous pouvez trouver des informations sur les gens.",
+      "cost": 1,
+      "tags": [
+        "network"
+      ],
+      "allowedArchetypes": [
+        "arch-carrieriste"
+      ]
+    },
+    {
+      "_id": "adv-reseau-universitaire",
+      "name": "Réseau universitaire",
+      "description": "Vous avez des contacts avec des universités du monde entier.",
+      "cost": 1,
+      "tags": [
+        "network",
+        "knowledge"
+      ],
+      "allowedArchetypes": [
+        "arch-universitaire"
+      ]
+    },
+    {
+      "_id": "adv-resquilleur",
+      "name": "Resquilleur",
+      "description": "Vous savez vous faire passer pour ce que vous n’êtes pas.",
+      "cost": 1,
+      "tags": [
+        "stealth",
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-vagabond"
+      ]
+    },
+    {
+      "_id": "adv-reveur",
+      "name": "Rêveur",
+      "description": "Vos rêves vous permettent de rencontrer des gens ou d’être témoin d’événements passés.",
+      "cost": 2,
+      "tags": [
+        "dreams",
+        "occult"
+      ],
+      "allowedArchetypes": [
+        "arch-detective",
+        "arch-occultiste"
+      ]
+    },
+    {
+      "_id": "adv-roi-evasion",
+      "name": "Roi de l’évasion",
+      "description": "Vous vous tirez des pires situations.",
+      "cost": 1,
+      "tags": [
+        "survival",
+        "stealth"
+      ],
+      "allowedArchetypes": [
+        "arch-criminel"
+      ]
+    },
+    {
+      "_id": "adv-ruse",
+      "name": "Rusé",
+      "description": "Vous obtenez la confiance d’autrui avec finesse.",
+      "cost": 1,
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-occultiste"
+      ]
+    },
+    {
+      "_id": "adv-scientifique",
+      "name": "Scientifique",
+      "description": "Vous savez chercher des indices sur des objets ou entités.",
+      "cost": 1,
+      "tags": [
+        "science",
+        "investigation"
+      ],
+      "allowedArchetypes": [
+        "arch-scientifique"
+      ]
+    },
+    {
+      "_id": "adv-seducteur",
+      "name": "Séducteur",
+      "description": "Vous pouvez faire tomber les gens amoureux de vous.",
+      "cost": 1,
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-escroc"
+      ]
+    },
+    {
+      "_id": "adv-sixieme-sens",
+      "name": "Sixième sens",
+      "description": "Vous devinez le danger ou le chemin à prendre.",
+      "cost": 2,
+      "tags": [
+        "occult",
+        "perception"
+      ],
+      "allowedArchetypes": [
+        "arch-criminel",
+        "arch-demon",
+        "arch-facilitateur",
+        "arch-nettoyeur",
+        "arch-dement"
+      ]
+    },
+    {
+      "_id": "adv-sniper",
+      "name": "Sniper",
+      "description": "Vous êtes un tireur d’élite à longue distance.",
+      "cost": 2,
+      "tags": [
+        "combat",
+        "ranged"
+      ],
+      "allowedArchetypes": [
+        "arch-nettoyeur"
+      ]
+    },
+    {
+      "_id": "adv-soif-connaissance",
+      "name": "Soif de connaissance",
+      "description": "Regagnez de la Stabilité en apprenant sur les autres dimensions et entités.",
+      "cost": 1,
+      "tags": [
+        "mental",
+        "knowledge"
+      ],
+      "allowedArchetypes": [
+        "arch-occultiste"
+      ]
+    },
+    {
+      "_id": "adv-sport-elite",
+      "name": "Sport d’élite",
+      "description": "Vous êtes un sportif professionnel.",
+      "cost": 1,
+      "tags": [
+        "physical"
+      ],
+      "allowedArchetypes": [
+        "arch-universitaire"
+      ]
+    },
+    {
+      "_id": "adv-strategie-sortie",
+      "name": "Stratégie de sortie",
+      "description": "Expert pour dissimuler les preuves de vos crimes.",
+      "cost": 1,
+      "tags": [
+        "stealth",
+        "strategy"
+      ],
+      "allowedArchetypes": [
+        "arch-nettoyeur"
+      ]
+    },
+    {
+      "_id": "adv-surveille",
+      "name": "Surveillé",
+      "description": "Un groupe mystérieux vous surveille et vous protège.",
+      "cost": 1,
+      "tags": [
+        "network",
+        "occult"
+      ],
+      "allowedArchetypes": [
+        "arch-descendant"
+      ]
+    },
+    {
+      "_id": "adv-survivaliste",
+      "name": "Survivaliste",
+      "description": "Vous survivez dans la nature.",
+      "cost": 1,
+      "tags": [
+        "survival"
+      ],
+      "allowedArchetypes": [
+        "arch-veteran"
+      ]
+    },
+    {
+      "_id": "adv-talent-artistique",
+      "name": "Talent artistique",
+      "description": "Vos œuvres ont un fort impact sur l’audience.",
+      "cost": 1,
+      "tags": [
+        "art",
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-artiste"
+      ]
+    },
+    {
+      "_id": "adv-tete-brulee",
+      "name": "Tête brûlée",
+      "description": "Vous gagnez des atouts lorsque vous êtes en danger.",
+      "cost": 1,
+      "tags": [
+        "mental",
+        "combat"
+      ],
+      "allowedArchetypes": [
+        "arch-carrieriste",
+        "arch-demon",
+        "arch-dement"
+      ]
+    },
+    {
+      "_id": "adv-tetu",
+      "name": "Têtu",
+      "description": "Vous faites face à toute menace et gagnez des atouts.",
+      "cost": 1,
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-investigateur"
+      ]
+    },
+    {
+      "_id": "adv-tireur-elite",
+      "name": "Tireur d’élite",
+      "description": "Tout dégât d’arme à feu infligé est considéré +1 dégât.",
+      "cost": 2,
+      "tags": [
+        "combat",
+        "ranged"
+      ],
+      "allowedArchetypes": [
+        "arch-veteran"
+      ]
+    },
+    {
+      "_id": "adv-victime-perpetuelle",
+      "name": "Victime perpétuelle",
+      "description": "Vous paraissez sans défense et poussez à vous protéger.",
+      "cost": 1,
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-jouet"
+      ]
+    },
+    {
+      "_id": "adv-vigilant",
+      "name": "Vigilant",
+      "description": "Quand vous lisez quelqu’un, vous savez si l’on vous ment.",
+      "cost": 1,
+      "tags": [
+        "perception"
+      ],
+      "allowedArchetypes": [
+        "arch-vagabond"
+      ]
+    },
+    {
+      "_id": "adv-voix-douleur",
+      "name": "Voix de douleur",
+      "description": "Vous combattez mieux les ennemis qui vous ont blessé.",
+      "cost": 1,
+      "tags": [
+        "combat"
+      ]
+    },
+    {
+      "_id": "adv-voix-folie",
+      "name": "Voix de folie",
+      "description": "Vous pouvez manipuler des foules.",
+      "cost": 2,
+      "tags": [
+        "social",
+        "occult"
+      ],
+      "allowedArchetypes": [
+        "arch-prophete"
+      ]
+    },
+    {
+      "_id": "adv-voleur",
+      "name": "Voleur",
+      "description": "Véritable monte-en-l’air.",
+      "cost": 1,
+      "tags": [
+        "stealth"
+      ],
+      "allowedArchetypes": [
+        "arch-agent",
+        "arch-criminel"
+      ]
+    },
+    {
+      "_id": "adv-voyageur",
+      "name": "Voyageur",
+      "description": "Vous savez beaucoup de choses sur différents lieux.",
+      "cost": 1,
+      "tags": [
+        "knowledge",
+        "travel"
+      ],
+      "allowedArchetypes": [
+        "arch-vagabond"
+      ]
+    }
+  ],
+  "disadvantages": [
+    {
+      "_id": "dis-avare",
+      "name": "Avare",
+      "description": "Vous êtes rongé par le désir de posséder toujours plus.",
+      "penalty": -1,
+      "trigger": "Refuser de partager ou de dépenser",
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-carrieriste",
+        "arch-condamne",
+        "arch-escroc",
+        "arch-facilitateur",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-cauchemars",
+      "name": "Cauchemars",
+      "description": "Vous souffrez de cauchemars récurrents.",
+      "penalty": -1,
+      "trigger": "Nuits sans repos avant une action importante",
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-artiste",
+        "arch-agent",
+        "arch-condamne",
+        "arch-detective",
+        "arch-descendant",
+        "arch-investigateur",
+        "arch-nettoyeur",
+        "arch-occultiste",
+        "arch-universitaire",
+        "arch-vengeur",
+        "arch-veteran",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-concurrent",
+      "name": "Concurrent",
+      "description": "Vous avez un concurrent dans le monde du crime.",
+      "penalty": -1,
+      "trigger": "Quand il agit contre vous ou vous coiffe au poteau",
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-facilitateur",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-condamne",
+      "name": "Condamné",
+      "description": "Votre destin est scellé d’avance et le compte à rebours arrive à sa fin.",
+      "penalty": -1,
+      "trigger": "Quand le temps presse ou que la mort s’approche",
+      "tags": [
+        "occult",
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-condamne",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-culpabilite",
+      "name": "Culpabilité",
+      "description": "Vous portez la lourde culpabilité de vos fautes passées.",
+      "penalty": -1,
+      "trigger": "Faire face à vos victimes ou répéter la faute",
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-occultiste",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-dement",
+      "name": "Dément",
+      "description": "Votre Stabilité ne peut jamais dépasser En détresse.",
+      "penalty": -2,
+      "trigger": "Toute scène de stress ou de peur",
+      "tags": [
+        "mental",
+        "occult"
+      ],
+      "allowedArchetypes": [
+        "arch-dement",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-depression",
+      "name": "Dépression",
+      "description": "Vous luttez contre la dépression.",
+      "penalty": -1,
+      "trigger": "Prendre des initiatives ou se motiver",
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-artiste",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-drogue",
+      "name": "Drogué",
+      "description": "Vous êtes dépendant aux drogues dures.",
+      "penalty": -1,
+      "trigger": "Privé de substance ou en manque",
+      "tags": [
+        "physical",
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-artiste",
+        "arch-condamne",
+        "arch-criminel",
+        "arch-demon",
+        "arch-detective",
+        "arch-veteran",
+        "arch-dement",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-envieux",
+      "name": "Envieux",
+      "description": "Vous désirez vivre la vie de quelqu’un d’autre.",
+      "penalty": -1,
+      "trigger": "Face à ceux qui possèdent ce que vous voulez",
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-facilitateur",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-esclave",
+      "name": "Esclave",
+      "description": "Vous avez fui quelqu’un qui vous considérait comme sa propriété.",
+      "penalty": -1,
+      "trigger": "Lorsqu’on vous retrouve ou qu’on vous commande",
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-jouet",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-experience-ratee",
+      "name": "Expérience ratée",
+      "description": "Vous avez mené une expérience qui a très mal tourné.",
+      "penalty": -1,
+      "trigger": "Réutiliser la même méthode ou croiser une victime",
+      "tags": [
+        "science",
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-scientifique",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-fanatique",
+      "name": "Fanatique",
+      "description": "Vous êtes le fervent défenseur d’une idéologie.",
+      "penalty": -1,
+      "trigger": "Quand on insulte ou contredit votre credo",
+      "tags": [
+        "mental",
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-prophete",
+        "arch-scientifique",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-handicap",
+      "name": "Handicap",
+      "description": "Vous souffrez d’une maladie ou d’une condition physique qui met votre vie en danger.",
+      "penalty": -1,
+      "trigger": "Effort prolongé ou stress physique",
+      "tags": [
+        "physical"
+      ],
+      "allowedArchetypes": [
+        "arch-detective",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-hante",
+      "name": "Hanté",
+      "description": "Vous êtes hanté par des forces surnaturelles.",
+      "penalty": -1,
+      "trigger": "Lieux chargés ou solitude prolongée",
+      "tags": [
+        "occult"
+      ],
+      "allowedArchetypes": [
+        "arch-carrieriste",
+        "arch-condamne",
+        "arch-descendant",
+        "arch-investigateur",
+        "arch-nettoyeur",
+        "arch-occultiste",
+        "arch-vagabond",
+        "arch-veteran",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-harcele",
+      "name": "Harcelé",
+      "description": "Vous faites partie d’une minorité harcelée.",
+      "penalty": -1,
+      "trigger": "Face aux autorités ou aux foules hostiles",
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-criminel",
+        "arch-jouet",
+        "arch-prophete",
+        "arch-vagabond",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-identite-perdue",
+      "name": "Identité perdue",
+      "description": "Votre identité réelle est enfouie, mais elle refait parfois surface.",
+      "penalty": -1,
+      "trigger": "Quand un élément du passé surgit",
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-agent",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-marque",
+      "name": "Marqué",
+      "description": "Vous êtes marqué par les ténèbres.",
+      "penalty": -1,
+      "trigger": "Quand la marque est visible ou réagit",
+      "tags": [
+        "occult"
+      ],
+      "allowedArchetypes": [
+        "arch-nettoyeur",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-maudit",
+      "name": "Maudit",
+      "description": "Vous souffrez d’une malédiction.",
+      "penalty": -1,
+      "trigger": "Quand la malédiction s’active ou qu’on la rappelle",
+      "tags": [
+        "occult"
+      ],
+      "allowedArchetypes": [
+        "arch-artiste",
+        "arch-carrieriste",
+        "arch-descendant",
+        "arch-escroc",
+        "arch-facilitateur",
+        "arch-investigateur",
+        "arch-nettoyeur",
+        "arch-prophete",
+        "arch-vagabond",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-mauvaise-reputation",
+      "name": "Mauvaise réputation",
+      "description": "On vous accuse de quelque chose, et les gens vous haïssent.",
+      "penalty": -1,
+      "trigger": "Socialiser dans un milieu informé de votre passé",
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-criminel",
+        "arch-scientifique",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-medium-involontaire",
+      "name": "Médium involontaire",
+      "description": "Vous êtes un réceptacle de choix pour les esprits et les entités démoniaques.",
+      "penalty": -1,
+      "trigger": "Quand le voile s’amincit ou dans les lieux chargés",
+      "tags": [
+        "occult"
+      ],
+      "allowedArchetypes": [
+        "arch-demon",
+        "arch-occultiste",
+        "arch-prophete",
+        "arch-dement",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-menteur",
+      "name": "Menteur",
+      "description": "Vous êtes un menteur compulsif.",
+      "penalty": -1,
+      "trigger": "Dire la vérité ou être confronté à vos mensonges",
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-carrieriste",
+        "arch-escroc",
+        "arch-facilitateur",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-nemesis",
+      "name": "Némésis",
+      "description": "Vous vous êtes fait un ennemi prêt à tout pour prendre sa revanche sur vous.",
+      "penalty": -1,
+      "trigger": "Quand il frappe ou envoie ses sbires",
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-criminel",
+        "arch-escroc",
+        "arch-nettoyeur",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-nevrose",
+      "name": "Névrose",
+      "description": "Vous souffrez de névrose.",
+      "penalty": -1,
+      "trigger": "Quand un déclencheur spécifique apparaît",
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-scientifique",
+        "arch-vengeur",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-nevrose-sexuelle",
+      "name": "Névrose sexuelle",
+      "description": "Votre sexualité est une force destructrice qui contrôle votre existence.",
+      "penalty": -1,
+      "trigger": "Face à tentation ou frustration",
+      "tags": [
+        "mental",
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-criminel",
+        "arch-escroc",
+        "arch-jouet",
+        "arch-prophete",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-objet-desir",
+      "name": "Objet de désir",
+      "description": "Vous éveillez des désirs malsains chez autrui.",
+      "penalty": -1,
+      "trigger": "Quand quelqu’un cherche à vous posséder",
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-jouet",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-obsession",
+      "name": "Obsession",
+      "description": "Vous êtes persuadé de la réalité d’une conspiration ou d’un phénomène surnaturel.",
+      "penalty": -1,
+      "trigger": "Quand on nie ou entrave votre obsession",
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-agent",
+        "arch-demon",
+        "arch-universitaire",
+        "arch-dement",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-phobie",
+      "name": "Phobie",
+      "description": "Vous souffrez d’une phobie.",
+      "penalty": -1,
+      "trigger": "Présence ou évocation de l’objet phobique",
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-descendant",
+        "arch-jouet",
+        "arch-universitaire",
+        "arch-veteran",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-poursuivant",
+      "name": "Poursuivant",
+      "description": "Vous êtes poursuivi par un ennemi anonyme.",
+      "penalty": -1,
+      "trigger": "Quand il se rapproche ou laisse des signes",
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-agent",
+        "arch-condamne",
+        "arch-demon",
+        "arch-detective",
+        "arch-descendant",
+        "arch-facilitateur",
+        "arch-investigateur",
+        "arch-jouet",
+        "arch-occultiste",
+        "arch-prophete",
+        "arch-universitaire",
+        "arch-vagabond",
+        "arch-vengeur",
+        "arch-veteran",
+        "arch-dement",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-rationnel",
+      "name": "Rationnel",
+      "description": "Votre esprit se refuse à percevoir quoi que ce soit hors des limites de la science actuelle.",
+      "penalty": -1,
+      "trigger": "Face à un phénomène surnaturel évident",
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-carrieriste",
+        "arch-universitaire",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-recherche",
+      "name": "Recherché",
+      "description": "Vous êtes recherché par les autorités.",
+      "penalty": -1,
+      "trigger": "Contrôles, caméras ou présence policière",
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-agent",
+        "arch-criminel",
+        "arch-escroc",
+        "arch-investigateur",
+        "arch-nettoyeur",
+        "arch-scientifique",
+        "arch-vagabond",
+        "arch-vengeur",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-rival",
+      "name": "Rival",
+      "description": "Vous avez un rival ambitieux, qui fera tout pour vous prendre votre place.",
+      "penalty": -1,
+      "trigger": "Quand il vous devance ou sabote vos plans",
+      "tags": [
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-agent",
+        "arch-carrieriste",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-schizophrenie",
+      "name": "Schizophrénie",
+      "description": "Vous luttez contre des hallucinations et votre psychose.",
+      "penalty": -2,
+      "trigger": "Stress intense ou fatigue",
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-artiste",
+        "arch-demon",
+        "arch-vagabond",
+        "arch-vengeur",
+        "arch-dement",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-souvenirs-refoules",
+      "name": "Souvenirs refoulés",
+      "description": "Vous avez refoulé un événement déplaisant.",
+      "penalty": -1,
+      "trigger": "Quand le souvenir est évoqué ou revient en flash",
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-detective",
+        "arch-descendant",
+        "arch-investigateur",
+        "arch-occultiste",
+        "arch-scientifique",
+        "arch-universitaire",
+        "arch-veteran",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-victime-passions",
+      "name": "Victime de ses passions",
+      "description": "Vous nourrissez une passion dévorante pour quelqu’un ou quelque chose.",
+      "penalty": -1,
+      "trigger": "Quand on vous empêche d’y céder",
+      "tags": [
+        "mental",
+        "social"
+      ],
+      "allowedArchetypes": [
+        "arch-artiste",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "dis-voeu-vengeance",
+      "name": "Vœu de vengeance",
+      "description": "Vous êtes obsédé par le désir de vous venger de quelqu’un ou d’une organisation.",
+      "penalty": -1,
+      "trigger": "Quand on vous détourne de votre cible",
+      "tags": [
+        "mental"
+      ],
+      "allowedArchetypes": [
+        "arch-vengeur",
+        "arch-dormeur"
+      ]
+    }
+  ],
+  "disciplines": [
+    {
+      "_id": "disc-dechirure-mineure",
+      "name": "Déchirure Mineure",
+      "sphere": "Illusion",
+      "tier": 1,
+      "effect": "Crée une brèche de quelques secondes qui révèle le décor réel ou laisse passer un souffle.",
+      "risk": "La brèche attire l’attention d’un surveillant mineur."
+    },
+    {
+      "_id": "disc-main-necrotique",
+      "name": "Main Nécrotique",
+      "sphere": "Mort",
+      "tier": 2,
+      "effect": "Toucher qui glace et épuise l’énergie vitale d’une cible consentante ou immobilisée.",
+      "risk": "Des silhouettes mortes te remarquent désormais."
+    },
+    {
+      "_id": "disc-pas-fissures",
+      "name": "Pas entre les Fissures",
+      "sphere": "Evasion",
+      "tier": 2,
+      "effect": "Traverse portes et cloisons fines comme une ombre.",
+      "risk": "Parfois, tu ramènes une trace d’ailleurs sur tes vêtements."
+    },
+    {
+      "_id": "disc-murmures-abime",
+      "name": "Murmures de l’Abîme",
+      "sphere": "Connaissance",
+      "tier": 3,
+      "effect": "Obtiens une réponse cryptique mais vraie sur la scène en cours.",
+      "risk": "La voix reste en toi et s’invite à nouveau quand tu dors."
+    }
+  ],
+  "secrets": [
+    {
+      "_id": "secret-elu",
+      "name": "Élu",
+      "description": "Un dieu vous a choisi comme prophète ou agneau sacrificiel, et ses fidèles vous traquent pour le grand jour.",
+      "hook": "Décider si vous fuyez, obéissez, endoctrinez ou combattez le culte.",
+      "allowedArchetypes": [
+        "arch-condamne",
+        "arch-descendant",
+        "arch-jouet",
+        "arch-prophete",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-culpable",
+      "name": "Coupable",
+      "description": "Vous avez commis un crime et la culpabilité vous ronge tandis que la victime ou la police vous cherche.",
+      "hook": "Choisir entre expier, fuir, affronter les victimes ou dénoncer les complices.",
+      "allowedArchetypes": [
+        "arch-carrieriste",
+        "arch-criminel",
+        "arch-detective",
+        "arch-facilitateur",
+        "arch-jouet",
+        "arch-veteran",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-experience-occulte",
+      "name": "Expérience occulte",
+      "description": "Vous avez vu l’Illusion se déchirer lors d’un rituel ou d’un événement surnaturel.",
+      "hook": "Poussé à en apprendre plus, aider autrui à percer l’Illusion ou combattre les démons.",
+      "allowedArchetypes": [
+        "arch-agent",
+        "arch-carrieriste",
+        "arch-condamne",
+        "arch-criminel",
+        "arch-demon",
+        "arch-detective",
+        "arch-descendant",
+        "arch-escroc",
+        "arch-investigateur",
+        "arch-jouet",
+        "arch-nettoyeur",
+        "arch-occultiste",
+        "arch-prophete",
+        "arch-universitaire",
+        "arch-dement",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-deracine",
+      "name": "Déraciné",
+      "description": "Toujours en fuite depuis l’enfance, vous sentez un poursuivant terrible derrière vous.",
+      "hook": "Découvrir la nature du poursuivant, retrouver vos parents ou enfin vous fixer quelque part.",
+      "allowedArchetypes": [
+        "arch-vagabond",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-disparition-mysterieuse",
+      "name": "Disparition mystérieuse",
+      "description": "Un proche enquêtait, a disparu, et vous recevez des messages codés pour finir son travail.",
+      "hook": "Trouver ce qui lui est arrivé, achever l’enquête et échapper aux espions.",
+      "allowedArchetypes": [
+        "arch-agent",
+        "arch-detective",
+        "arch-investigateur",
+        "arch-universitaire",
+        "arch-vengeur",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-gardien",
+      "name": "Gardien",
+      "description": "Vous devez protéger un artefact, un lieu ou une personne cruciale pour l’avenir.",
+      "hook": "Assurer sa sécurité, comprendre sa nature ou transmettre la charge à quelqu’un d’autre.",
+      "allowedArchetypes": [
+        "arch-agent",
+        "arch-investigateur",
+        "arch-nettoyeur",
+        "arch-occultiste",
+        "arch-prophete",
+        "arch-universitaire",
+        "arch-vengeur",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-maladie-mentale",
+      "name": "Maladie mentale",
+      "description": "Vous ou un proche souffrez d’une maladie mentale, mêlée à la conscience que le monde est une Illusion.",
+      "hook": "Explorer l’Illusion, dévoiler le complot, vous venger des soignants ou retrouver le proche disparu.",
+      "allowedArchetypes": [
+        "arch-artiste",
+        "arch-demon",
+        "arch-escroc",
+        "arch-scientifique",
+        "arch-vagabond",
+        "arch-dement",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-experiences-medicales",
+      "name": "Responsable d’expérimentations médicales",
+      "description": "Vous avez participé à des expériences clandestines aux conséquences catastrophiques.",
+      "hook": "Obtenir pardon, incriminer l’employeur ou achever/corriger l’expérience.",
+      "allowedArchetypes": [
+        "arch-carrieriste",
+        "arch-scientifique",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-malédiction",
+      "name": "Malédiction",
+      "description": "Un mauvais sort gangrène votre vie et menace vos proches.",
+      "hook": "Comprendre la malédiction, la détourner, la transmettre ou accepter votre destin.",
+      "allowedArchetypes": [
+        "arch-artiste",
+        "arch-carrieriste",
+        "arch-condamne",
+        "arch-nettoyeur",
+        "arch-vagabond",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-pacte-obscur",
+      "name": "Pacte avec les forces obscures",
+      "description": "Vous avez signé avec une entité puissante; le prix est votre âme.",
+      "hook": "Rompre le pacte, duper ou tuer l’entité, profiter encore un peu du pouvoir.",
+      "allowedArchetypes": [
+        "arch-artiste",
+        "arch-carrieriste",
+        "arch-condamne",
+        "arch-descendant",
+        "arch-escroc",
+        "arch-facilitateur",
+        "arch-occultiste",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-revenu-autre-cote",
+      "name": "Revenu de l’autre côté",
+      "description": "Vous avez survécu à un voyage impossible dans l’au-delà; quelque chose vous traque pour corriger l’erreur.",
+      "hook": "Comprendre l’événement, retrouver les disparus ou échapper au destin.",
+      "allowedArchetypes": [
+        "arch-condamne",
+        "arch-demon",
+        "arch-detective",
+        "arch-scientifique",
+        "arch-universitaire",
+        "arch-vagabond",
+        "arch-vengeur",
+        "arch-veteran",
+        "arch-dement",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-savoir-interdit",
+      "name": "Savoir interdit",
+      "description": "Vous détenez une vérité qui menace l’Illusion et attire ses gardiens.",
+      "hook": "Révéler toute la Vérité, amasser plus de savoir ou fuir vos poursuivants.",
+      "allowedArchetypes": [
+        "arch-agent",
+        "arch-criminel",
+        "arch-demon",
+        "arch-detective",
+        "arch-facilitateur",
+        "arch-investigateur",
+        "arch-occultiste",
+        "arch-prophete",
+        "arch-scientifique",
+        "arch-universitaire",
+        "arch-dement",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-secret-famille",
+      "name": "Secret de famille",
+      "description": "Votre lignée cache un secret lourd qui peut détruire votre existence.",
+      "hook": "Empêcher sa divulgation, affronter ou aider votre famille, découvrir toute la vérité.",
+      "allowedArchetypes": [
+        "arch-investigateur",
+        "arch-vagabond",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-visite",
+      "name": "Visité",
+      "description": "Des êtres d’autres dimensions vous rendent visite sans cesse.",
+      "hook": "Comprendre pourquoi, aider les esprits ou échapper aux créatures du mal.",
+      "allowedArchetypes": [
+        "arch-nettoyeur",
+        "arch-occultiste",
+        "arch-prophete",
+        "arch-veteran",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-victime-experiences",
+      "name": "Victime d’expérimentations médicales",
+      "description": "Cobaye volontaire ou non, vous portez les séquelles d’expériences qui ont ouvert des fenêtres entre les dimensions.",
+      "hook": "Retrouver les responsables, accepter ou guérir vos altérations, explorer d’autres dimensions.",
+      "allowedArchetypes": [
+        "arch-agent",
+        "arch-demon",
+        "arch-jouet",
+        "arch-nettoyeur",
+        "arch-scientifique",
+        "arch-vengeur",
+        "arch-veteran",
+        "arch-dement",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-victime-crime",
+      "name": "Victime d’un crime",
+      "description": "Un crime atroce vous a brisé et guide toute votre existence.",
+      "hook": "Vengeance, compréhension, lutte contre des crimes similaires ou pardon au bourreau.",
+      "allowedArchetypes": [
+        "arch-artiste",
+        "arch-criminel",
+        "arch-escroc",
+        "arch-facilitateur",
+        "arch-jouet",
+        "arch-vengeur",
+        "arch-veteran",
+        "arch-dormeur"
+      ]
+    },
+    {
+      "_id": "secret-heritage",
+      "name": "Héritage",
+      "description": "Vous avez hérité d’un objet ou lieu aux secrets puissants, qui attire convoitise et obsession.",
+      "hook": "Découvrir la vérité, protéger votre bien ou affronter les prétendants.",
+      "allowedArchetypes": [
+        "arch-artiste",
+        "arch-descendant",
+        "arch-escroc",
+        "arch-facilitateur",
+        "arch-dormeur"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "char-elyas-marek",
+    "name": "Elyas Marek",
+    "archetype": "arch-detective-desabuse",
+    "darkSecret": "secret-faux-souvenir",
+    "attributes": {
+      "passive": { "endurance": 2, "reflexe": 1, "volonte": 0 },
+      "active": {
+        "ame": 0,
+        "charisme": 1,
+        "intuition": 2,
+        "logique": -1,
+        "perception": 3,
+        "sangFroid": -2,
+        "violence": 1
+      }
+    },
+    "keySkills": ["Observation", "Improvisation", "Négociation"],
+    "advantages": ["adv-sang-froid"],
+    "disadvantages": ["dis-vision-fragmentee"],
+    "disciplines": ["disc-dechirure-mineure"],
+    "equipment": ["Lampe tempête", "Couteau de poche", "Pendentif fêlé"],
+    "notes": "Une mélodie revient toujours dans ses rêves. Il cherche sa source.",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  }
+]
