@@ -2,10 +2,10 @@
 node_version = "22"
 
 [phases.install]
-cmd = "pnpm install --frozen-lockfile"
+cmd = "npm ci"
 
 [phases.build]
-cmd = "pnpm run build"
+cmd = "npm run build"
 
 [start]
 cmd = "node .output/server/index.mjs"

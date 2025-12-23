@@ -1,14 +1,13 @@
 [phases.setup]
-# Force Node and pnpm versions (Nixpacks keys)
-nixPkgs = ["nodejs_22", "pnpm-9_x"]
+# Force Node version (Nixpacks keys)
+nixPkgs = ["nodejs_22"]
 nodejs = "22"
-pnpm = "9"
 
 [phases.install]
-cmd = "pnpm install --frozen-lockfile"
+cmd = "npm ci"
 
 [phases.build]
-cmd = "pnpm run build"
+cmd = "npm run build"
 
 [start]
 cmd = "node .output/server/index.mjs"
