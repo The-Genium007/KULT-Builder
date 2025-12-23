@@ -2,6 +2,7 @@ import { randomUUID } from 'node:crypto'
 import { existsSync } from 'node:fs'
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { loadResources, type Resources } from './resources'
 
 export interface PassiveAttributes {
@@ -48,7 +49,9 @@ export interface StoredCharacter extends CharacterPayload {
   updatedAt: string
 }
 
-const charactersPath = join(process.cwd(), 'server/data/characters.json')
+// Chemin résolu depuis la racine du projet (indépendant du cwd du runtime).
+const projectRoot = fileURLToPath(new URL('../..', import.meta.url))
+const charactersPath = join(projectRoot, 'server/data/characters.json')
 
 async function ensureFile() {
   await mkdir(dirname(charactersPath), { recursive: true })
