@@ -1,27 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Space+Grotesk:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* ── Theme tokens ── */
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Cinzel', 'Palatino Linotype', serif;
 
-/* Subtle background texture and general theming */
+  --color-ink: #0b0c10;
+  --color-ink-light: #12141a;
+  --color-blood: #c4243f;
+  --color-blood-dim: #8a1a2d;
+  --color-ash: #9ea0a3;
+  --color-bone: #e8e6e3;
+  --color-iron: #1a1f2b;
+  --color-iron-light: #252b3a;
+  --color-ember: #d4845f;
+
+  /* Tighter, harsher glow — not a gentle halo */
+  --shadow-glow: 0 0 8px rgba(196, 36, 63, 0.25);
+  --shadow-glow-strong: 0 0 16px rgba(196, 36, 63, 0.4);
+}
+
+/* ── Base ── */
 body {
-  @apply bg-ink text-ash font-sans;
-  background: radial-gradient(circle at 20% 20%, rgba(179, 27, 63, 0.08), transparent 25%),
-    radial-gradient(circle at 80% 0%, rgba(209, 120, 92, 0.08), transparent 20%),
+  @apply bg-ink text-bone font-sans;
+  font-feature-settings: 'cv01', 'cv02';
+  background:
+    radial-gradient(circle at 20% 20%, rgba(196, 36, 63, 0.04), transparent 25%),
+    radial-gradient(circle at 80% 0%, rgba(212, 132, 95, 0.03), transparent 20%),
     linear-gradient(145deg, #0b0c10 0%, #0f1117 60%, #0b0c10 100%);
+}
+
+/* Film grain overlay — subtle noise texture */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
 }
 
 a {
   @apply text-ember hover:text-blood transition-colors;
 }
 
+/* ── Component classes — BRUTALIST: sharp corners ── */
 .card {
-  @apply bg-iron/80 border border-iron/60 rounded-2xl shadow-glow backdrop-blur;
+  @apply bg-iron/80 border border-iron-light rounded-sm backdrop-blur;
+  border-left: 2px solid var(--color-blood-dim);
 }
 
 .card-ghost {
-  @apply border border-iron/40 bg-iron/50 rounded-xl;
+  @apply border border-iron-light bg-iron/50 rounded-sm;
 }
 
 .accent {
@@ -29,9 +63,91 @@ a {
 }
 
 .pill {
-  @apply rounded-full px-3 py-1 text-sm bg-blood/15 text-ash border border-blood/40;
+  @apply rounded-full px-3 py-1 text-sm bg-blood/10 text-bone border border-blood/30 font-medium;
 }
 
 .section-title {
-  @apply text-2xl font-serif text-ash;
+  @apply text-xl sm:text-2xl font-serif text-white tracking-[0.15em] uppercase;
+}
+
+/* Section divider — occult line */
+.section-divider {
+  @apply border-0 h-px my-8;
+  background: linear-gradient(90deg, transparent 0%, var(--color-blood-dim) 30%, var(--color-blood) 50%, var(--color-blood-dim) 70%, transparent 100%);
+}
+.section-divider::after {
+  content: '\25C6';
+  display: block;
+  text-align: center;
+  margin-top: -0.6em;
+  color: var(--color-blood);
+  font-size: 0.7rem;
+}
+
+/* ── Cursor on all interactive elements ── */
+button:not(:disabled),
+[role="button"],
+a,
+select,
+label[class*="cursor"],
+[class*="cursor-pointer"] {
+  cursor: pointer;
+}
+
+/* ── Mobile touch targets ── */
+@media (max-width: 639px) {
+  select, input, textarea, button {
+    min-height: 44px;
+    font-size: 16px;
+  }
+}
+
+/* ── Smooth scroll ── */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* ── Forms — sharp corners ── */
+input, select, textarea {
+  @apply bg-transparent;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+select,
+textarea {
+  @apply rounded-sm border border-iron-light bg-iron/70 px-3 py-2 text-bone placeholder-ash/50;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+  @apply border-blood ring-1 ring-blood/50 outline-none;
+}
+
+input[type="checkbox"] {
+  @apply rounded-sm border-iron-light bg-iron text-blood;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ink);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-iron-light);
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-blood-dim);
 }
