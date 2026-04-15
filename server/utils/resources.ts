@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises'
-import { join } from 'node:path'
+import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { existsSync } from 'node:fs'
 
 export interface Resources {
   archetypes: any[]
@@ -10,13 +11,25 @@ export interface Resources {
   secrets: any[]
 }
 
-// Résout le chemin depuis la racine du projet (pas le cwd) pour éviter les 500 quand
-// l'app est lancée depuis un autre répertoire dans le runtime. Deux niveaux au-dessus
-// du bundle `.output/server` ramènent à la racine du projet.
-const projectRoot = fileURLToPath(new URL('../..', import.meta.url))
-const resourcesPath = join(projectRoot, 'server/data/resources.json')
+let cachedResources: Resources | null = null
+
+function resolveResourcesPath(): string {
+  // Try multiple possible paths (dev, build, generate contexts)
+  const __dirname = dirname(fileURLToPath(import.meta.url))
+  const candidates = [
+    join(__dirname, '../data/resources.json'),         // dev: server/utils -> server/data
+    join(__dirname, '../../server/data/resources.json'), // build: .output/server/chunks -> project root
+    join(process.cwd(), 'server/data/resources.json'),   // fallback: cwd
+  ]
+  for (const p of candidates) {
+    if (existsSync(p)) return p
+  }
+  return candidates[0]
+}
 
 export async function loadResources(): Promise<Resources> {
-  const raw = await readFile(resourcesPath, 'utf8')
-  return JSON.parse(raw)
+  if (cachedResources) return cachedResources
+  const raw = await readFile(resolveResourcesPath(), 'utf8')
+  cachedResources = JSON.parse(raw)
+  return cachedResources!
 }
