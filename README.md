@@ -1,118 +1,71 @@
-# KULT Character Builder
+<div align="center">
 
-> A dark, immersive character creation tool for **KULT: Divinity Lost** — the tabletop RPG where reality is an illusion and humanity is trapped in a prison of lies.
+# KULT — Character Forge
 
-Built with **Nuxt 4**, **Vue 3**, **Tailwind CSS v4**, and **Pinia**. All character data stays **private in your browser** via `localStorage` — no server, no shared database, no peeking at other players' sheets.
+**A free, open-source character builder for KULT: Divinity Lost**
+
+*"A veil shrouds our eyes."*
+
+[**Use it now**](https://the-genium007.github.io/KULT-Builder/) · [Report a bug](https://github.com/The-Genium007/KULT-Builder/issues)
 
 ---
+
+</div>
+
+## What is this?
+
+A web-based tool that walks you through creating a complete KULT: Divinity Lost character sheet — from archetype to dark secret, advantages, attributes, equipment, and relations. No sign-up, no download, no server. Just open the link and start building.
+
+This is a **personal project** I built for my own tabletop sessions and I'm happy to share it with the community. Whether you're a seasoned Game Master preparing a one-shot or a new player rolling your first character, this tool handles the bookkeeping so you can focus on the fiction.
+
+## How to use
+
+1. **Open** [the-genium007.github.io/KULT-Builder](https://the-genium007.github.io/KULT-Builder/)
+2. **Pick** an archetype — 20 to choose from, each with GM counsel and suggested occupations
+3. **Fill** your traits, attributes, skills, identity, and equipment step by step
+4. **Save** — your character is stored privately in your browser. No one else can see it
+5. **Export** your sheet as a JSON file to share it or move it to another device
+
+That's it. Bookmark the page and come back anytime — your draft is auto-saved.
 
 ## Features
 
-- **Guided wizard** — step-by-step creation: Archetype, Dark Secret, Advantages/Disadvantages, Attributes, Skills, Identity, Equipment, Relations, and Summary
-- **20 archetypes** with thematic SVG icons, GM counsel, suggested occupations, and atmosphere guidance
-- **Smart filtering** — advantages, disadvantages, and dark secrets are filtered by selected archetype
-- **Attribute pool validation** — passive (Endurance, Reflex, Willpower) and active (Soul, Charisma, Intuition, Logic, Perception, Composure, Violence) attributes enforce the official point-buy pools
-- **Local-only storage** — characters are saved to `localStorage`. Each player's data is private and never leaves their browser
-- **Import / Export** — download character sheets as JSON files or import them back. Share builds between devices without a server
-- **Draft auto-save** — your work-in-progress is automatically persisted. Close the tab, come back later, and pick up where you left off
-- **Dark occult UI** — custom color palette (`ink`, `blood`, `ash`, `iron`, `ember`), glow effects, Playfair Display + Space Grotesk typography
-- **Fully responsive** — mobile-first design with progressive breakpoints, touch-friendly targets (44px minimum), and bottom-sheet modals on small screens
-
-## Quick Start
-
-```bash
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) and start forging your character.
-
-## Build & Deploy
-
-```bash
-# Production build
-npm run build
-
-# Preview the production build locally
-npm run preview
-
-# Static export (optional — outputs to .output/public)
-npm run generate
-```
-
-### Deployment (Nixpacks / Railway / Render)
-
-The project works out of the box with Nixpacks auto-detection. Optionally, configure with a `.nixpacks.toml`:
-
-```toml
-[phases.setup]
-node_version = "20"
-
-[phases.install]
-cmd = "npm ci"
-
-[phases.build]
-cmd = "npm run build"
-
-[start]
-cmd = "npm run preview"
-```
-
-## Project Structure
-
-```
-app/
-  assets/css/main.css       # Tailwind v4 theme (CSS-based config)
-  composables/               # Archetype icon SVGs
-  layouts/default.vue        # Shell layout (header + footer)
-  pages/index.vue            # Main builder UI + character list
-  stores/builder.ts          # Pinia store (wizard state + draft persistence)
-  types/kult.ts              # TypeScript interfaces
-server/
-  api/                       # Nitro API routes (read-only game data)
-  data/resources.json        # Archetypes, advantages, disadvantages, dark secrets, disciplines
-  validators/character.ts    # Zod schema for character payloads
-  utils/                     # Resource loader + character store utilities
-```
-
-## Game Data
-
-All KULT game reference data lives in [`server/data/resources.json`](server/data/resources.json):
-- **Archetypes** (20) — with taglines, guidance, suggested attributes, and equipment
-- **Advantages** — with costs, descriptions, and archetype restrictions
-- **Disadvantages** — with penalties, triggers, and archetype restrictions
-- **Dark Secrets** — with hooks and archetype restrictions
-- **Disciplines** — spheres, tiers, effects, and risks
-
-This data is served as read-only via Nitro API routes (`/api/archetypes`, `/api/advantages`, etc.).
-
-## Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Framework | [Nuxt 4](https://nuxt.com) |
-| UI | [Vue 3](https://vuejs.org) |
-| Styling | [Tailwind CSS v4](https://tailwindcss.com) (CSS-based config) |
-| State | [Pinia](https://pinia.vuejs.org) |
-| Validation | [Zod](https://zod.dev) |
-| Server | [Nitro](https://nitro.build) (Nuxt server engine) |
-| Storage | `localStorage` (browser-only, private per user) |
+| | |
+|---|---|
+| **Guided creation** | Step-by-step wizard: archetype, dark secret, advantages, disadvantages, attributes, skills, identity, equipment, relations |
+| **20 archetypes** | Each with thematic icon, tagline, GM counsel, occupation suggestions, and atmosphere guidance |
+| **Smart filtering** | Advantages, disadvantages, and dark secrets are filtered by your chosen archetype |
+| **Attribute validation** | Official KULT point-buy pools are enforced — passive and active attributes |
+| **Private & offline** | Everything stays in your browser's localStorage. No account, no server, no tracking |
+| **Import & export** | Download your character as JSON or import one from a file |
+| **Auto-save drafts** | Close the tab mid-creation and pick up exactly where you left off |
+| **Mobile-ready** | Works on phone, tablet, and desktop — touch-optimized with sticky navigation |
+| **Brutalist UI** | Dark occult aesthetic built for the KULT universe — sharp edges, blood accents, film grain |
 
 ## Privacy
 
-All character data is stored **exclusively in your browser's localStorage**. Nothing is sent to a server. Nothing is shared between users. If you clear your browser data, your characters are gone — so use the **Export** button to keep backups.
+Your characters **never leave your browser**. There is no server, no database, no analytics. If you clear your browser data, your characters are gone — use the export button to keep backups.
+
+## For Game Masters
+
+A few ways this can help at your table:
+
+- **Session prep** — pre-build NPCs and antagonists, export them, and have them ready
+- **Player onboarding** — send new players the link so they can create characters before session zero
+- **Quick reference** — the archetype counsel and occupation lists are useful even if you're building characters on paper
 
 ## Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+Found a bug? Have an idea? [Open an issue](https://github.com/The-Genium007/KULT-Builder/issues) or submit a pull request. Contributions are welcome.
 
 ## License
 
-[MIT](LICENSE) - Luca Gisa ([lucagisa.com](https://lucagisa.com))
+[MIT](LICENSE) — Made by [Luca Gisa](https://lucagisa.com)
+
+<div align="center">
 
 ---
 
-*"A veil shrouds our eyes."* — KULT: Divinity Lost
+*KULT: Divinity Lost is a tabletop RPG by Helmgast AB. This is an unofficial fan-made tool and is not affiliated with or endorsed by the publisher.*
+
+</div>
