@@ -2,7 +2,7 @@
 import { storeToRefs } from 'pinia'
 import { onMounted, ref, watch, computed } from 'vue'
 import { useBuilderStore } from '~/stores/builder'
-import type { ArchetypeDoc, AdvantageDoc, DisadvantageDoc, DarkSecretDoc, CharacterResponse } from '~/types/kult'
+import type { ArchetypeDoc, AdvantageDoc, DisadvantageDoc, DarkSecretDoc, CharacterResponse, CharacterPayload } from '~/types/kult'
 import { getArchetypeIcon } from '~/composables/useArchetypeIcons'
 
 const builder = useBuilderStore()
@@ -806,8 +806,25 @@ function deleteCharacter(id: string) {
   message.value = 'Personnage supprimé.'
 }
 
+function characterToPayload(char: CharacterResponse): CharacterPayload {
+  return {
+    name: char.name,
+    archetype: char.archetype?._id || '',
+    darkSecret: char.darkSecret?._id || '',
+    attributes: char.attributes,
+    keySkills: char.keySkills || [],
+    advantages: (char.advantages || []).map((a) => a._id),
+    disadvantages: (char.disadvantages || []).map((d) => d._id),
+    disciplines: (char.disciplines || []).map((d) => d._id),
+    equipment: char.equipment || [],
+    relations: char.relations || [],
+    appearance: char.appearance || '',
+    notes: char.notes || ''
+  }
+}
+
 async function copyCharacterJson(char: CharacterResponse) {
-  const payload = JSON.stringify(char, null, 2)
+  const payload = JSON.stringify(characterToPayload(char), null, 2)
   try {
     await navigator.clipboard.writeText(payload)
     messageTone.value = 'success'
@@ -820,13 +837,26 @@ async function copyCharacterJson(char: CharacterResponse) {
 }
 
 function downloadCharacterJson(char: CharacterResponse) {
-  const blob = new Blob([JSON.stringify(char, null, 2)], { type: 'application/json' })
+  const blob = new Blob([JSON.stringify(characterToPayload(char), null, 2)], { type: 'application/json' })
   const url = URL.createObjectURL(blob)
   const a = document.createElement('a')
   a.href = url
   a.download = `${char.name || 'personnage'}.json`
   a.click()
   URL.revokeObjectURL(url)
+}
+
+function exportDraftJson() {
+  const payload = builder.toPayload()
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' })
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = `${payload.name || 'brouillon'}.json`
+  a.click()
+  URL.revokeObjectURL(url)
+  messageTone.value = 'success'
+  message.value = 'Réglage exporté en JSON.'
 }
 
 function triggerImport() {
@@ -1385,6 +1415,13 @@ onMounted(() => {
             <button
               class="px-4 py-3 rounded-sm border border-iron/70 text-bone hover:bg-iron-light text-sm sm:text-base"
               type="button"
+              @click="exportDraftJson"
+            >
+              Exporter JSON
+            </button>
+            <button
+              class="px-4 py-3 rounded-sm border border-iron/70 text-bone hover:bg-iron-light text-sm sm:text-base"
+              type="button"
               @click="handleReset"
             >
               Réinitialiser
@@ -1473,7 +1510,7 @@ onMounted(() => {
               type="button"
               @click="downloadCharacterJson(char)"
             >
-              Télécharger JSON
+              Exporter JSON
             </button>
             <button
               class="px-3 py-1 rounded-sm border border-blood/50 text-blood hover:bg-blood/20 text-xs"
